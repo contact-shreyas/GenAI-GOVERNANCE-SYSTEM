@@ -1,0 +1,44 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{\numberline {1}Introduction}{3}{section.1}%
+\contentsline {section}{\numberline {2}Related Work}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}AI Ethics and Governance Frameworks}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Policy Languages and Enforcement}{3}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Transparency and Auditability}{4}{subsection.2.3}%
+\contentsline {section}{\numberline {3}System Architecture}{4}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Layer 1: Policy Compilation}{4}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Policy Template Schema}{4}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Compilation Algorithm}{4}{subsubsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.2}Layer 2: Enforcement Execution}{4}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Layer 3: Transparency Ledger}{5}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Privacy Design}{5}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Logging Schema}{5}{subsubsection.3.3.2}%
+\contentsline {section}{\numberline {4}Implementation}{6}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Technology Stack}{6}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Code Statistics}{6}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}API Endpoints}{6}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Evaluation}{6}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Evaluation Methodology}{7}{subsection.5.1}%
+\contentsline {subsubsection}{\numberline {5.1.1}Datasets}{7}{subsubsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.2}Results}{7}{subsection.5.2}%
+\contentsline {subsubsection}{\numberline {5.2.1}Conflict Detection}{7}{subsubsection.5.2.1}%
+\contentsline {subsubsection}{\numberline {5.2.2}Decision Latency}{7}{subsubsection.5.2.2}%
+\contentsline {subsubsection}{\numberline {5.2.3}Privacy Verification}{7}{subsubsection.5.2.3}%
+\contentsline {section}{\numberline {6}Discussion}{7}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Key Findings}{7}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Advantages Over Prior Work}{8}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Generalization}{8}{subsection.6.3}%
+\contentsline {section}{\numberline {7}Limitations and Future Work}{8}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Limitations}{8}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Future Work}{8}{subsection.7.2}%
+\contentsline {section}{\numberline {8}Ethical Considerations}{8}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Governance Without Authoritarianism}{8}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Privacy and Data Protection}{9}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Preventing Misuse}{9}{subsection.8.3}%
+\contentsline {section}{\numberline {9}Conclusion}{9}{section.9}%
+\contentsline {section}{\numberline {A}Complete API Examples}{14}{appendix.A}%
+\contentsline {subsection}{\numberline {A.1}Compilation Request}{14}{subsection.A.1}%
+\contentsline {subsection}{\numberline {A.2}Evaluation Request}{14}{subsection.A.2}%
+\contentsline {section}{\numberline {B}Deployment Guide}{14}{appendix.B}%
+\contentsline {subsection}{\numberline {B.1}Docker Deployment}{14}{subsection.B.1}%
+\contentsline {subsection}{\numberline {B.2}Local Deployment}{14}{subsection.B.2}%
+\contentsline {section}{\numberline {C}Test Scenarios}{14}{appendix.C}%

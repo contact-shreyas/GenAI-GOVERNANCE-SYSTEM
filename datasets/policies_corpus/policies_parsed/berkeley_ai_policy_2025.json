@@ -1,0 +1,240 @@
+{
+  "institution": "University of California, Berkeley",
+  "policy_name": "AI Tools in Academic Work: Berkeley Student Guide",
+  "academic_year": 2025,
+  "effective_date": "2025-01-15",
+  "last_updated": "2025-01-15",
+  "source_url": "https://teaching.berkeley.edu/resources/ai-and-education",
+  "policy_id": "BERKELEY_AI_2025_v1",
+  "scope": {
+    "applies_to": ["Undergraduate Students", "Graduate Students", "Researchers"],
+    "level": ["All Levels", "All Schools and Colleges"],
+    "jurisdiction": "UC Berkeley main campus"
+  },
+  "introduction": "UC Berkeley recognizes that generative AI tools (ChatGPT, Claude, GitHub Copilot, etc.) are becoming prevalent in education and research. This guide provides a framework for responsible, ethical use of AI while maintaining academic integrity and authentic learning.",
+  "core_values": [
+    "Academic Integrity: Your work must represent your genuine understanding",
+    "Transparency: Disclose AI use clearly and completely",
+    "Learning Objectives: AI should enhance, not replace, your education",
+    "Critical Thinking: You must evaluate AI outputs with skepticism and verification"
+  ],
+  "allowed_uses": [
+    {
+      "use": "Brainstorming and Ideation",
+      "description": "Using AI to explore ideas, generate questions, and develop approaches",
+      "when_allowed": "All courses unless explicitly restricted",
+      "examples": [
+        "Using ChatGPT to brainstorm research topics",
+        "Using AI to generate hypotheses and test approaches",
+        "Using AI to explore different problem-solving strategies"
+      ],
+      "disclosure": "Not required for private exploration; recommend in formal work"
+    },
+    {
+      "use": "Conceptual Learning",
+      "description": "Using AI as a tutor to understand difficult material",
+      "when_allowed": "All courses for personal learning",
+      "examples": [
+        "Using ChatGPT to explain quantum mechanics",
+        "Using AI to work through practice problems",
+        "Using AI to see alternative explanations"
+      ],
+      "disclosure": "Not required for learning; acknowledge if included in assessments"
+    },
+    {
+      "use": "Research Assistance",
+      "description": "Using AI to find, organize, and summarize research materials",
+      "when_allowed": "With instructor approval for coursework",
+      "examples": [
+        "Using AI to organize bibliography and find related work",
+        "Using AI to summarize journal articles",
+        "Using AI to identify research gaps and opportunities"
+      ],
+      "disclosure": "Required in formal research papers and theses"
+    },
+    {
+      "use": "Writing Support",
+      "description": "Using AI for editing, organization, and clarity improvements",
+      "when_allowed": "All written work with appropriate disclosure",
+      "examples": [
+        "Using Grammarly or similar for proofreading",
+        "Using AI to improve organization and flow",
+        "Using AI to clarify complex explanations"
+      ],
+      "disclosure": "Required if substantive (beyond basic grammar)"
+    },
+    {
+      "use": "Code Development",
+      "description": "Using AI for programming assistance",
+      "when_allowed": "Computer Science and related courses with disclosure",
+      "examples": [
+        "Using GitHub Copilot to generate code segments",
+        "Using AI to understand programming concepts",
+        "Using AI to debug errors"
+      ],
+      "disclosure": "Required with detailed comments in code"
+    },
+    {
+      "use": "Data Analysis",
+      "description": "Using AI to analyze data, create visualizations, and interpret results",
+      "when_allowed": "Research and advanced coursework with disclosure",
+      "examples": [
+        "Using AI to suggest statistical methods",
+        "Using AI to generate publication-quality visualizations",
+        "Using AI to check calculations and verify results"
+      ],
+      "disclosure": "Required in methods section and reproducibility statement"
+    }
+  ],
+  "prohibited_uses": [
+    {
+      "prohibition": "Submitting AI-Generated Work Unattributed",
+      "why_prohibited": "Violates academic honesty; misrepresents your abilities",
+      "examples": [
+        "Submitting ChatGPT-written essay without disclosure",
+        "Turning in AI-generated code as your own",
+        "Presenting AI analysis as your original thinking"
+      ],
+      "penalty": "Academic misconduct charge, possible course failure or suspension",
+      "severity": "Critical"
+    },
+    {
+      "prohibition": "Violating Assignment Instructions",
+      "why_prohibited": "Undermines learning objectives when instructor restricts AI",
+      "examples": [
+        "Using AI on exam marked 'no electronic aids'",
+        "Using AI on 'individual work only' assignment",
+        "Using AI to complete work you're meant to learn yourself"
+      ],
+      "penalty": "Failing grade on assignment or course",
+      "severity": "Critical"
+    },
+    {
+      "prohibition": "Creating False or Fabricated Content",
+      "why_prohibited": "Produces fraudulent scholarship and misinformation",
+      "examples": [
+        "Using AI to generate fake experimental data",
+        "Creating non-existent citations",
+        "Generating false quotations from authors"
+      ],
+      "penalty": "Severe academic misconduct, possible dismissal",
+      "severity": "Critical"
+    },
+    {
+      "prohibition": "Presenting AI Understanding as Your Own",
+      "why_prohibited": "Circumvents skill development required by course",
+      "examples": [
+        "Submitting AI-written code you don't understand",
+        "Using AI to bypass core learning competencies",
+        "Relying entirely on AI without personal learning"
+      ],
+      "penalty": "Failing grade, requirement to reassess",
+      "severity": "Major"
+    }
+  ],
+  "disclosure_best_practices": {
+    "format_options": [
+      {
+        "method": "Inline Comments or Footnotes",
+        "template": "AI Disclosure: [Tool] was used to [specific task]. The output was [describe modifications/verification]."
+      },
+      {
+        "method": "Separate Statement",
+        "template": "AI Tools Used in This Work: [List tools, purposes, extent of use, and verification done]"
+      },
+      {
+        "method": "Code Comments",
+        "template": "# This [function/section] was generated using [tool] on [date] and has been [verified/modified as follows]"
+      },
+      {
+        "method": "Research Methods",
+        "template": "Data analysis was conducted using [software] with AI assistance from [tool]. All results were independently verified using [verification method]."
+      }
+    ],
+    "what_to_include": [
+      "Name and version of AI tool(s) used",
+      "Specific purpose (brainstorming, code generation, proofreading, etc.)",
+      "How much of the work involved AI (entire document, specific sections, iterative use, etc.)",
+      "What you did with AI output (use as-is, modify substantially, verify, etc.)",
+      "Date(s) when tools were used",
+      "Any limitations or concerns about AI output"
+    ]
+  },
+  "instructor_guidance": {
+    "syllabus_recommendations": [
+      "State your policy on AI use clearly (permitted, prohibited, or case-by-case)",
+      "Explain how policy varies by assignment type",
+      "Provide specific disclosure requirements and examples",
+      "Explain consequences of non-compliance"
+    ],
+    "in_class_discussion": [
+      "Discuss capabilities and limitations of AI tools",
+      "Share examples of appropriate and inappropriate use",
+      "Explain why learning outcomes matter",
+      "Address student questions and concerns"
+    ],
+    "assessment_strategies": [
+      "Use varied assessment methods (not just essays vulnerable to AI)",
+      "Include components requiring demonstration of understanding (viva voce, presentations)",
+      "Require explanations of methodology and reasoning",
+      "Use plagiarism/AI detection tools as supporting evidence only"
+    ],
+    "identifying_concerns": [
+      "Unexpected improvement in quality beyond demonstrated ability",
+      "Generic phrasing inconsistent with student's voice",
+      "Content beyond evident understanding in class",
+      "Inconsistency with previous work samples"
+    ],
+    "responding_to_suspected_misuse": [
+      "Interview student non-accusingly about their work process",
+      "Ask to explain methodology and reasoning",
+      "Request viva voce examination if appropriate",
+      "Document concerns formally before escalation"
+    ]
+  },
+  "discipline_specific_considerations": [
+    {
+      "discipline": "STEM Fields",
+      "guidance": "Emphasis on understanding and verification. AI code generation acceptable with understanding verification. All calculations must be verified."
+    },
+    {
+      "discipline": "Humanities and Social Sciences",
+      "guidance": "Original analysis is paramount. AI can assist with research organization. AI-generated content should be minimal. Critical thinking must be clearly evident."
+    },
+    {
+      "discipline": "Professional Programs (Law, Medicine, Engineering)",
+      "guidance": "Different rules may apply for clinical/professional practice. Verify requirements with program director. Competency demonstration is essential."
+    },
+    {
+      "discipline": "Fine Arts",
+      "guidance": "AI-assisted work is evolving field. Discuss with instructor. Attribution of AI collaboration expected. Creative intent and execution still required from student."
+    }
+  ],
+  "academic_misconduct_procedure": {
+    "reporting": "Contact UC Berkeley Office of Student Conduct",
+    "investigation": "Formal hearing following university regulations",
+    "appeals": "Appeals process available per Academic Integrity Policy",
+    "resources": "Student support and counseling available throughout process"
+  },
+  "frequently_asked_questions": [
+    {
+      "q": "Can I use ChatGPT to write my paper?",
+      "a": "No. You can use AI for brainstorming, organization, and proofreading. You must write the main analysis and arguments yourself. Disclose any substantial AI use."
+    },
+    {
+      "q": "Is GitHub Copilot allowed for programming assignments?",
+      "a": "Generally yes with disclosure, but check your instructor's specific policy. You must understand and be able to explain all code you submit. Verify it works correctly."
+    },
+    {
+      "q": "What if my instructor says nothing about AI use?",
+      "a": "Ask your instructor directly about their expectations. When in doubt, disclose your AI use. Transparency is better than concealment."
+    },
+    {
+      "q": "Can I use AI tools during exams?",
+      "a": "No, unless explicitly permitted by your instructor. Exams typically require individual effort without electronic aids."
+    }
+  ],
+  "policy_version": "1.0",
+  "effective_date": "2025-01-15",
+  "next_review": "2025-06-01"
+}

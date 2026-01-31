@@ -1,0 +1,173 @@
+{
+  "institution": "University of Oxford",
+  "policy_name": "Guidelines on the Use of Generative AI in Student Assessment and Coursework",
+  "academic_year": 2025,
+  "effective_date": "2025-01-20",
+  "last_updated": "2025-01-20",
+  "source_url": "https://www.ox.ac.uk/students/academic/guidance/skills/ai",
+  "policy_id": "OXFORD_AI_2025_v1",
+  "scope": {
+    "applies_to": ["All Students", "Academic Staff", "Researchers"],
+    "level": ["Undergraduate", "Postgraduate", "DPhil"],
+    "jurisdiction": "University of Oxford and affiliated colleges"
+  },
+  "introduction": "The University of Oxford recognizes the transformative potential of generative AI while maintaining commitment to academic integrity. These guidelines support responsible use of AI in learning and research.",
+  "key_principles": [
+    "Authenticity: Your own thinking must be evident in assessed work",
+    "Transparency: Disclose all significant AI use",
+    "Criticality: Evaluate AI outputs with critical thinking",
+    "Accountability: You remain responsible for all submitted work"
+  ],
+  "college_tutor_authority": "Individual tutors may set stricter requirements than university guidelines. Always follow your college's specific guidance.",
+  "permitted_uses": [
+    {
+      "activity": "Brainstorming and Exploration",
+      "description": "Using AI to explore ideas, perspectives, and problem approaches",
+      "scope": "General learning activities unless restricted by tutor",
+      "disclosure": "Not required for private learning"
+    },
+    {
+      "activity": "Understanding Difficult Material",
+      "description": "Using AI tutors to explain concepts in different ways",
+      "scope": "Learning support across all subjects",
+      "disclosure": "Recommended in formal work"
+    },
+    {
+      "activity": "Drafting and Redrafting",
+      "description": "Using AI to generate drafts that you substantially revise",
+      "scope": "Essays, reports, and written work (check with tutor)",
+      "disclosure": "Required in submitted work"
+    },
+    {
+      "activity": "Code Generation",
+      "description": "Using AI for programming tasks with review and modification",
+      "scope": "Computer Science and programming modules",
+      "disclosure": "Required with code comments"
+    },
+    {
+      "activity": "Research Support",
+      "description": "Using AI for literature searching, organization, and analysis",
+      "scope": "Research and thesis work (check with supervisor)",
+      "disclosure": "Required in thesis or research paper"
+    },
+    {
+      "activity": "Writing Assistance",
+      "description": "Using AI for grammar, style, and clarity improvements",
+      "scope": "Writing support (not content generation)",
+      "disclosure": "Required if substantive"
+    }
+  ],
+  "prohibited_practices": [
+    {
+      "practice": "Submitting AI-Generated Text Unmodified",
+      "why_prohibited": "Violates academic integrity by misrepresenting authorship",
+      "examples": [
+        "Copying ChatGPT-generated essay into coursework",
+        "Submitting unmodified AI-produced analysis",
+        "Turning in AI-written sections without changes"
+      ],
+      "penalty": "Academic misconduct hearing, potential viva voce restrictions"
+    },
+    {
+      "practice": "Contravening Explicit Prohibitions",
+      "why_prohibited": "Violates specific assignment or examination rules",
+      "examples": [
+        "Using AI when tutor explicitly prohibits",
+        "Using generative AI during examination",
+        "Using AI on marked coursework when forbidden"
+      ],
+      "penalty": "Failing grade, disciplinary action"
+    },
+    {
+      "practice": "Fabricating Sources or Data",
+      "why_prohibited": "Creates fraudulent scholarship",
+      "examples": [
+        "Using AI to generate fake citations",
+        "Creating invented data and attributing to research",
+        "Generating false quotations"
+      ],
+      "penalty": "Severe disciplinary action, possible rustication"
+    },
+    {
+      "practice": "Undermining Learning Outcomes",
+      "why_prohibited": "Prevents genuine understanding and skill development",
+      "examples": [
+        "Using AI to avoid learning core skills",
+        "Relying on AI when assignment requires your analysis",
+        "Using AI to circumvent module learning objectives"
+      ],
+      "penalty": "Failing grade, academic misconduct proceedings"
+    }
+  ],
+  "disclosure_guidance": {
+    "how_to_disclose": [
+      {
+        "method": "Footnote or Endnote",
+        "example": "The initial draft of this section was generated using ChatGPT (2025) and subsequently revised for accuracy and originality of analysis."
+      },
+      {
+        "method": "Separate Disclosure Statement",
+        "example": "AI Disclosure: ChatGPT (OpenAI, January 2025) was used to generate literature search queries and organize citations. All content analysis is my own."
+      },
+      {
+        "method": "Method Section (for research)",
+        "example": "Data visualization was created using Python and AI-assisted code generation (GitHub Copilot) with human verification of all calculations."
+      }
+    ],
+    "what_to_disclose": [
+      "Name and version of AI tool used",
+      "Specific purpose (e.g., brainstorming, code generation, writing support)",
+      "Extent of use (entire document vs. specific sections)",
+      "Modifications you made to AI output",
+      "Date(s) of use"
+    ]
+  },
+  "assessment_practice": {
+    "detecting_concerning_patterns": [
+      "Sudden change in writing style or complexity",
+      "Content that seems beyond demonstrated understanding",
+      "Lack of nuance or critical evaluation",
+      "Generic phrasing inconsistent with personal voice",
+      "Technical inaccuracies in well-known areas"
+    ],
+    "responding_to_concerns": [
+      "Interview student about their work and sources",
+      "Request viva voce examination on submitted work",
+      "Use AI detection tools as supporting evidence (not definitive)",
+      "Consider context and pattern of previous work"
+    ],
+    "follow_up_questions": [
+      "Can you explain your approach to this problem?",
+      "What did you initially think before doing this analysis?",
+      "What would you do differently if you did this again?",
+      "How did you come to this conclusion?"
+    ]
+  },
+  "subject_specific_guidance": [
+    {
+      "subject": "Sciences",
+      "guidance": "AI use in literature review and data visualization is encouraged with disclosure. Use of AI to interpret experimental results should be avoided unless explicitly supervised."
+    },
+    {
+      "subject": "Humanities",
+      "guidance": "AI-generated content should be minimal. Critical analysis and interpretation must be entirely your own. Tutor approval recommended before extensive AI use."
+    },
+    {
+      "subject": "Engineering and Computer Science",
+      "guidance": "AI code generation tools are permitted with disclosure and code review. You must understand and be able to explain all code submitted."
+    },
+    {
+      "subject": "Mathematics",
+      "guidance": "AI tools are useful for checking calculations. Problem-solving approach must be your own. Prove that you understand all steps."
+    }
+  ],
+  "college_implementation": {
+    "requirement": "Each college must provide specific AI guidance in subject handbooks",
+    "timeline": "Guidance must be provided within first week of term",
+    "accessibility": "Guidance must be clear and available to all students"
+  },
+  "appeal_process": "Students may appeal academic misconduct decisions through standard University procedures",
+  "version": "1.0",
+  "status": "Active",
+  "next_review": "2025-09-01"
+}

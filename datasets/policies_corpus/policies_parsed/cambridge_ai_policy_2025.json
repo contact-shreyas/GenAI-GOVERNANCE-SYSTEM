@@ -1,0 +1,187 @@
+{
+  "institution": "University of Cambridge",
+  "policy_name": "Academic Integrity and AI: Policy Guidance for Students",
+  "academic_year": 2025,
+  "effective_date": "2025-02-01",
+  "last_updated": "2025-02-01",
+  "source_url": "https://www.cam.ac.uk/students/academicstudies/integrity",
+  "policy_id": "CAMBRIDGE_AI_2025_v1",
+  "scope": {
+    "applies_to": ["All Students", "Academic Staff"],
+    "level": ["Undergraduate (Tripos)", "Postgraduate (MPhil, PhD)"],
+    "jurisdiction": "University of Cambridge and constituent colleges"
+  },
+  "preamble": "Cambridge's commitment to academic excellence requires that assessed work demonstrates your own knowledge, understanding, and intellectual effort. While AI tools offer valuable learning opportunities, their use must be transparent, appropriate, and in line with assignment requirements.",
+  "fundamental_principles": [
+    "Your work must be distinctly your own",
+    "All material sources, including AI, must be acknowledged",
+    "AI use must comply with specific assignment instructions",
+    "You remain ultimately responsible for accuracy and integrity of submitted work"
+  ],
+  "permitted_applications": [
+    {
+      "category": "Learning and Understanding",
+      "description": "Using AI to enhance comprehension of difficult concepts",
+      "permitted_in": "General learning (not assessed work unless approved)",
+      "examples": [
+        "Using ChatGPT to explain quantum mechanics concepts",
+        "Using AI to explore alternative proofs in mathematics",
+        "Using AI to work through practice problems for understanding"
+      ],
+      "disclosure_requirement": "Not required for private learning; recommended in assessed work"
+    },
+    {
+      "category": "Research and Literature Review",
+      "description": "Using AI to identify, summarize, and organize academic sources",
+      "permitted_in": "Theses, essays, literature reviews (with tutor approval)",
+      "examples": [
+        "Using AI to organize bibliography",
+        "Using AI to identify relevant research areas",
+        "Using AI to summarize key findings from papers"
+      ],
+      "disclosure_requirement": "Yes, in methods or acknowledgments"
+    },
+    {
+      "category": "Writing Support",
+      "description": "Using AI for grammar, style, and structural improvements",
+      "permitted_in": "All written work with appropriate disclosure",
+      "examples": [
+        "Using Grammarly for proofreading",
+        "Using AI to improve clarity of explanation",
+        "Using AI to refine argument structure"
+      ],
+      "disclosure_requirement": "Yes, if substantive (more than grammar checking)"
+    },
+    {
+      "category": "Technical Skill Development",
+      "description": "Using AI as learning tool for programming and technical skills",
+      "permitted_in": "Computing and engineering work (with disclosure)",
+      "examples": [
+        "Using GitHub Copilot with code review",
+        "Using AI to learn new programming paradigms",
+        "Using AI to understand algorithms"
+      ],
+      "disclosure_requirement": "Yes, in code comments or submission statement"
+    },
+    {
+      "category": "Data Analysis",
+      "description": "Using AI tools for statistical analysis and visualization",
+      "permitted_in": "Research work (with disclosure and verification)",
+      "examples": [
+        "Using AI to suggest statistical approaches",
+        "Using AI to generate publication-ready visualizations",
+        "Using AI to check calculations"
+      ],
+      "disclosure_requirement": "Yes, in methods section"
+    }
+  ],
+  "impermissible_practices": [
+    {
+      "practice": "Submitting Unattributed AI-Generated Work",
+      "definition": "Presenting AI output as original human work without disclosure",
+      "violations": "Academic misconduct",
+      "examples": [
+        "Copy-pasting ChatGPT essay without acknowledgment",
+        "Submitting AI-generated analysis as your thinking",
+        "Presenting AI-written sections without marking them as such"
+      ],
+      "consequences": "Disciplinary hearing, module failure, academic exclusion"
+    },
+    {
+      "practice": "Breaching Assignment Restrictions",
+      "definition": "Using AI when explicitly prohibited by assignment guidelines",
+      "violations": "Academic misconduct",
+      "examples": [
+        "Using generative AI on examination paper (exam halls explicitly AI-free zones)",
+        "Using AI on assignment marked 'individual work only'",
+        "Using AI to avoid learning core module competencies"
+      ],
+      "consequences": "Zero on assignment, possible course failure"
+    },
+    {
+      "practice": "Generating False Content",
+      "definition": "Using AI to fabricate data, evidence, or citations",
+      "violations": "Serious academic misconduct",
+      "examples": [
+        "Generating fake experimental results",
+        "Creating non-existent scholarly sources",
+        "Inventing quotations attributed to authors"
+      ],
+      "consequences": "Suspension or expulsion, potential legal action"
+    },
+    {
+      "practice": "Misrepresenting AI Capability",
+      "definition": "Claiming AI understanding or skill you don't possess",
+      "violations": "Academic integrity violation",
+      "examples": [
+        "Submitting AI-written code claiming to understand it",
+        "Using AI analysis without verifying correctness",
+        "Relying on AI to bypass learning requirements"
+      ],
+      "consequences": "Failing grade, supervised reassessment"
+    }
+  ],
+  "disclosure_statement_format": {
+    "title": "AI Use Declaration",
+    "required_information": [
+      "Tool name and version (e.g., ChatGPT-4, GitHub Copilot v1.88)",
+      "Purpose of use (brainstorming, code generation, proofreading, etc.)",
+      "Extent of use (entire document, specific sections, iterative refinement, etc.)",
+      "Modifications made (what you changed, verified, or improved)",
+      "Date(s) when tool was used"
+    ],
+    "example": "AI Use Declaration: ChatGPT-4 (OpenAI) was used in January 2025 to generate initial structure for this literature review. All AI-generated content was reviewed for accuracy, substantially modified to include my analysis, and verified against source materials. The critical synthesis and conclusions are entirely my own work."
+  },
+  "supervisor_guidance": {
+    "before_term": [
+      "Communicate your college and departmental AI policies clearly",
+      "Provide examples of acceptable and unacceptable AI use",
+      "Establish expectations for disclosure and documentation"
+    ],
+    "during_supervision": [
+      "Discuss AI use openly during progress meetings",
+      "Provide feedback on appropriate disclosure",
+      "Monitor for patterns suggesting inappropriate use"
+    ],
+    "when_reviewing_work": [
+      "Look for sudden changes in writing quality or technical complexity",
+      "Compare current work to previous submissions",
+      "Note inconsistencies between AI-likely content and demonstrated understanding",
+      "Request clarification if AI use is suspected but not disclosed"
+    ],
+    "detection_and_response": [
+      "Use cautious skepticism, not accusation",
+      "Interview student about their work and process",
+      "Conduct viva voce if misconduct is suspected",
+      "Document concerns and follow formal procedures"
+    ]
+  },
+  "department_implementation": {
+    "requirement": "Each department must publish subject-specific AI guidance",
+    "must_address": [
+      "Whether AI is permitted in different assessment types",
+      "Specific disclosure requirements for the discipline",
+      "Penalties for misuse in your subject area"
+    ],
+    "examples_provided": [
+      "Essay-based subjects: Focus on originality of analysis",
+      "STEM subjects: Emphasis on understanding and verification",
+      "Practical subjects: Skills development must be genuine"
+    ]
+  },
+  "misconduct_procedures": {
+    "initial_concern": "Report to college tutor or department director",
+    "investigation": "Formal misconduct hearing follows Cambridge regulations",
+    "appeal": "Right to appeal through established procedures",
+    "support": "Student support services available throughout process"
+  },
+  "key_messages": [
+    "AI is a tool; you are the author and responsibility holder",
+    "Transparency about AI use is better than attempted concealment",
+    "Learning outcomes must still be achieved through your effort",
+    "Ambiguity should be resolved in favor of disclosure"
+  ],
+  "version": "2.0",
+  "implementation_date": "2025-02-01",
+  "review_date": "2025-10-01"
+}

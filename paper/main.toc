@@ -1,0 +1,36 @@
+\contentsline {section}{\numberline {I}Introduction}{2}{}%
+\contentsline {section}{\numberline {II}Related Work}{2}{}%
+\contentsline {subsection}{\numberline {\mbox {II-A}}AI Ethics and Governance Frameworks}{2}{}%
+\contentsline {subsection}{\numberline {\mbox {II-B}}Policy Languages and Enforcement}{2}{}%
+\contentsline {subsection}{\numberline {\mbox {II-C}}Transparency and Auditability}{3}{}%
+\contentsline {section}{\numberline {III}System Architecture}{3}{}%
+\contentsline {subsection}{\numberline {\mbox {III-A}}Layer 1: Policy Compilation}{3}{}%
+\contentsline {subsubsection}{\numberline {\mbox {III-A}1}Policy Template Schema}{3}{}%
+\contentsline {subsubsection}{\numberline {\mbox {III-A}2}Compilation Algorithm}{3}{}%
+\contentsline {subsection}{\numberline {\mbox {III-B}}Layer 2: Enforcement Execution}{3}{}%
+\contentsline {subsection}{\numberline {\mbox {III-C}}Layer 3: Transparency Ledger}{3}{}%
+\contentsline {subsubsection}{\numberline {\mbox {III-C}1}Privacy Design}{3}{}%
+\contentsline {section}{\numberline {IV}Implementation}{3}{}%
+\contentsline {subsection}{\numberline {\mbox {IV-A}}Technology Stack}{3}{}%
+\contentsline {subsection}{\numberline {\mbox {IV-B}}Code Statistics}{3}{}%
+\contentsline {subsection}{\numberline {\mbox {IV-C}}API Endpoints}{3}{}%
+\contentsline {section}{\numberline {V}Evaluation}{4}{}%
+\contentsline {subsection}{\numberline {\mbox {V-A}}Evaluation Methodology}{4}{}%
+\contentsline {subsubsection}{\numberline {\mbox {V-A}1}Datasets}{4}{}%
+\contentsline {subsection}{\numberline {\mbox {V-B}}Results}{4}{}%
+\contentsline {subsubsection}{\numberline {\mbox {V-B}1}Conflict Detection}{4}{}%
+\contentsline {subsubsection}{\numberline {\mbox {V-B}2}Decision Latency}{4}{}%
+\contentsline {subsubsection}{\numberline {\mbox {V-B}3}Privacy Verification}{4}{}%
+\contentsline {section}{\numberline {VI}Discussion}{4}{}%
+\contentsline {subsection}{\numberline {\mbox {VI-A}}Key Findings}{4}{}%
+\contentsline {subsection}{\numberline {\mbox {VI-B}}Advantages Over Prior Work}{4}{}%
+\contentsline {subsection}{\numberline {\mbox {VI-C}}Generalization}{4}{}%
+\contentsline {section}{\numberline {VII}Limitations and Future Work}{4}{}%
+\contentsline {subsection}{\numberline {\mbox {VII-A}}Limitations}{4}{}%
+\contentsline {subsection}{\numberline {\mbox {VII-B}}Future Work}{4}{}%
+\contentsline {section}{\numberline {VIII}Ethical Considerations}{4}{}%
+\contentsline {subsection}{\numberline {\mbox {VIII-A}}Governance Without Authoritarianism}{4}{}%
+\contentsline {subsection}{\numberline {\mbox {VIII-B}}Privacy and Data Protection}{5}{}%
+\contentsline {subsection}{\numberline {\mbox {VIII-C}}Preventing Misuse}{5}{}%
+\contentsline {section}{\numberline {IX}Conclusion}{5}{}%
+\contentsline {section}{References}{5}{}%

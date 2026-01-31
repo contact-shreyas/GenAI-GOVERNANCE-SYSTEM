@@ -1,0 +1,76 @@
+{
+  "summary": {
+    "policies": 9,
+    "total_allowed_uses": 23,
+    "total_prohibited_uses": 25,
+    "total_faqs": 11,
+    "avg_allowed_uses": 2.56,
+    "avg_prohibited_uses": 2.78,
+    "avg_faqs": 1.22
+  },
+  "rows": [
+    {
+      "policy": "berkeley_ai_policy_2025",
+      "institution": "University of California, Berkeley",
+      "allowed_uses": 6,
+      "prohibited_uses": 4,
+      "faqs": 4
+    },
+    {
+      "policy": "cambridge_ai_policy_2025",
+      "institution": "University of Cambridge",
+      "allowed_uses": 0,
+      "prohibited_uses": 0,
+      "faqs": 0
+    },
+    {
+      "policy": "cornell_genai_policy_2025",
+      "institution": "Cornell University",
+      "allowed_uses": 5,
+      "prohibited_uses": 3,
+      "faqs": 0
+    },
+    {
+      "policy": "harvard_ai_policy_2025",
+      "institution": "Harvard University",
+      "allowed_uses": 0,
+      "prohibited_uses": 0,
+      "faqs": 4
+    },
+    {
+      "policy": "iitdelhi_ai_integrity_2025",
+      "institution": "IIT Delhi",
+      "allowed_uses": 0,
+      "prohibited_uses": 5,
+      "faqs": 0
+    },
+    {
+      "policy": "mit_ai_policy_2025",
+      "institution": "MIT",
+      "allowed_uses": 6,
+      "prohibited_uses": 4,
+      "faqs": 3
+    },
+    {
+      "policy": "oxford_ai_guidelines_2025",
+      "institution": "University of Oxford",
+      "allowed_uses": 0,
+      "prohibited_uses": 0,
+      "faqs": 0
+    },
+    {
+      "policy": "stanford_ai_ethics_2025",
+      "institution": "Stanford University",
+      "allowed_uses": 0,
+      "prohibited_uses": 4,
+      "faqs": 0
+    },
+    {
+      "policy": "yale_ai_policy_2025",
+      "institution": "Yale University",
+      "allowed_uses": 6,
+      "prohibited_uses": 5,
+      "faqs": 0
+    }
+  ]
+}

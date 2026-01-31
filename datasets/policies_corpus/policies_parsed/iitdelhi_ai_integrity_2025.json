@@ -1,0 +1,174 @@
+{
+  "metadata": {
+    "source": "IIT Delhi Official Academic Integrity Code",
+    "url": "https://iitd.ac.in/academics/integrity-policy",
+    "date_published": "2025-06-15",
+    "date_parsed": "2026-01-29",
+    "institution": "IIT Delhi",
+    "country": "India",
+    "document_type": "Academic Integrity & AI Policy",
+    "version": "1.0"
+  },
+  "policy": {
+    "id": "iitdelhi_ai_integrity_2025_v1.0",
+    "title": "IIT Delhi: Code of Conduct for Artificial Intelligence in Academic Work",
+    "effective_date": "2025-08-01",
+    "last_updated": "2025-06-15",
+    "preamble": "IIT Delhi is committed to academic excellence and integrity. This policy governs the use of AI tools while maintaining the highest standards of scholarly conduct.",
+    "definitions": {
+      "artificial_intelligence": "Software systems that can perform tasks that typically require human intelligence",
+      "ai_assistance": "Using AI tools to enhance learning or improve work quality",
+      "unauthorized_ai_use": "Submitting AI-generated work without proper acknowledgment",
+      "plagiarism": "Presenting AI output as original work without modification or credit"
+    },
+    "permitted_uses": [
+      {
+        "use": "Learning and understanding concepts",
+        "allowed": true,
+        "disclosure": false,
+        "examples": [
+          "Using ChatGPT to explain complex theorems",
+          "AI tutors for programming concepts",
+          "Machine translation for reading foreign language papers"
+        ]
+      },
+      {
+        "use": "Research literature review",
+        "allowed": true,
+        "disclosure": true,
+        "examples": [
+          "AI-powered paper summarization tools",
+          "Citation management with AI assistance",
+          "Keyword extraction for research topics"
+        ]
+      },
+      {
+        "use": "Programming and algorithm development",
+        "allowed": true,
+        "disclosure": true,
+        "details": "Must show understanding of AI-generated code",
+        "examples": [
+          "GitHub Copilot for code suggestions (with review)",
+          "ChatGPT for debugging (with analysis)",
+          "Code optimization assistance"
+        ]
+      },
+      {
+        "use": "Data analysis and visualization",
+        "allowed": true,
+        "disclosure": true,
+        "examples": [
+          "AI tools for statistical analysis",
+          "Automated visualization generation",
+          "Pattern recognition in datasets"
+        ]
+      },
+      {
+        "use": "Writing improvement",
+        "allowed": true,
+        "disclosure": true,
+        "limitations": "Must not change original meaning or ideas",
+        "examples": [
+          "Grammar and style checking",
+          "Clarity improvement",
+          "Paragraph restructuring"
+        ]
+      }
+    ],
+    "prohibited_uses": [
+      {
+        "violation": "Submitting AI-generated text as original work",
+        "severity": "High",
+        "penalty": "Zero marks + disciplinary action"
+      },
+      {
+        "violation": "Using AI on closed-book examinations",
+        "severity": "Critical",
+        "penalty": "Fail + referral to Disciplinary Committee"
+      },
+      {
+        "violation": "Unauthorized AI use in research/thesis",
+        "severity": "Critical",
+        "penalty": "Thesis rejection + expulsion (severe cases)"
+      },
+      {
+        "violation": "Copying AI output from other students",
+        "severity": "High",
+        "penalty": "Same as plagiarism"
+      },
+      {
+        "violation": "Hiding AI tool use from faculty",
+        "severity": "High",
+        "penalty": "Zero marks + disciplinary action"
+      }
+    ],
+    "disclosure_requirements": {
+      "mandatory_for": [
+        "All assignments where AI is used significantly (>20%)",
+        "All research work",
+        "All thesis/capstone projects",
+        "Any code with AI suggestions"
+      ],
+      "format": {
+        "academic_work": {
+          "location": "Footnote or end note",
+          "template": "AI Tool: [Tool Name], Purpose: [What was done], Extent: [Percentage]"
+        },
+        "research_paper": {
+          "location": "Methods section",
+          "template": "Include subsection 'AI Tools and Methods'"
+        },
+        "code": {
+          "location": "Comments in code",
+          "template": "# AI-generated with [Tool]: [Brief description]"
+        },
+        "thesis": {
+          "location": "Separate section after acknowledgments",
+          "template": "Formal declaration of AI usage"
+        }
+      },
+      "example_statement": "I used ChatGPT (OpenAI) for approximately 30% of this assignment, specifically for brainstorming ideas and improving paragraph clarity. All major arguments and code logic are my own work."
+    },
+    "assessment_by_faculty": {
+      "design_principles": [
+        "Focus on understanding rather than just output",
+        "Include oral exams or presentations",
+        "Ask 'why' and 'how' questions",
+        "Use project-based assessments",
+        "Require documentation of process"
+      ],
+      "evaluation_guidelines": [
+        "Assess student's ability to critique AI output",
+        "Look for evidence of original thinking",
+        "Check consistency across multiple assignments",
+        "Use plagiarism detection tools (as aids only)",
+        "Have conversations with students about their work"
+      ]
+    },
+    "student_responsibility": {
+      "requirements": [
+        "Understand your course's AI policy (in syllabus)",
+        "Disclose AI use honestly and completely",
+        "Critically evaluate AI-generated content",
+        "Ensure AI output aligns with course objectives",
+        "Ask faculty when in doubt"
+      ],
+      "consequences_of_violation": [
+        "Academic: Zero marks, course failure",
+        "Disciplinary: Warning to expulsion",
+        "Record: Notation on transcript (severe cases)",
+        "Professional: Impact on internships/placements"
+      ]
+    },
+    "resources": {
+      "workshops": "Monthly sessions on 'Responsible AI in Academics'",
+      "contact": "academic-integrity@iitd.ac.in",
+      "appeal_process": "Students can appeal through Dean of Students office"
+    }
+  },
+  "policy_status": {
+    "active": true,
+    "last_reviewed": "2025-12-15",
+    "next_review": "2026-06-15"
+  }
+}

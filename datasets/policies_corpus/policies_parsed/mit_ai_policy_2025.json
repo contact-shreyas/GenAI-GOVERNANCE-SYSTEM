@@ -1,0 +1,190 @@
+{
+  "institution": "MIT",
+  "policy_name": "Artificial Intelligence Policy for Students and Faculty",
+  "academic_year": 2025,
+  "effective_date": "2025-01-15",
+  "last_updated": "2025-01-15",
+  "source_url": "https://web.mit.edu/policies/13/13.a.1.html",
+  "policy_id": "MIT_AI_2025_v1",
+  "scope": {
+    "applies_to": ["Students", "Faculty", "Researchers", "Staff"],
+    "level": ["Undergraduate", "Graduate", "Postdoctoral"],
+    "jurisdiction": "All MIT courses and research activities"
+  },
+  "purpose": "To establish clear expectations for the responsible use of AI tools in academic work while fostering innovation and technological literacy.",
+  "allowed_uses": [
+    {
+      "use_case": "Brainstorming and Research Ideation",
+      "description": "Using AI to generate research ideas, explore problem spaces, and identify novel approaches",
+      "examples": [
+        "Using ChatGPT to brainstorm research questions",
+        "Using Copilot to explore algorithm design approaches",
+        "Using Claude to identify gaps in literature"
+      ],
+      "disclosure_required": true,
+      "disclosure_method": "Inline comment in research proposal"
+    },
+    {
+      "use_case": "Code Development and Debugging",
+      "description": "Using AI to write, refactor, test, and debug code with human oversight",
+      "examples": [
+        "Using GitHub Copilot for code generation with review",
+        "Using ChatGPT to debug error messages",
+        "Using AI to generate unit tests"
+      ],
+      "disclosure_required": true,
+      "disclosure_method": "Code comment with AI tool name and version"
+    },
+    {
+      "use_case": "Data Analysis and Visualization",
+      "description": "Using AI to analyze datasets, identify patterns, and create visualizations",
+      "examples": [
+        "Using AI to generate statistical analysis code",
+        "Using AI to suggest visualization approaches",
+        "Using AI to interpret data patterns"
+      ],
+      "disclosure_required": true,
+      "disclosure_method": "Methods section documentation"
+    },
+    {
+      "use_case": "Writing Assistance",
+      "description": "Using AI to improve clarity, grammar, and organization while maintaining authentic voice",
+      "examples": [
+        "Using Grammarly AI for proofreading",
+        "Using AI for structure suggestions",
+        "Using AI to improve clarity of technical writing"
+      ],
+      "disclosure_required": true,
+      "disclosure_method": "Footnote or separate statement"
+    },
+    {
+      "use_case": "Learning and Understanding",
+      "description": "Using AI as a tutor to understand concepts and course material",
+      "examples": [
+        "Using AI to explain difficult concepts",
+        "Using AI to work through practice problems",
+        "Using AI to clarify technical terminology"
+      ],
+      "disclosure_required": false,
+      "disclosure_method": "Not required but recommended"
+    },
+    {
+      "use_case": "Literature Review Acceleration",
+      "description": "Using AI to summarize papers, identify themes, and organize references",
+      "examples": [
+        "Using AI to summarize academic papers",
+        "Using AI to identify related work",
+        "Using AI to organize citations"
+      ],
+      "disclosure_required": true,
+      "disclosure_method": "Methods section footnote"
+    }
+  ],
+  "prohibited_uses": [
+    {
+      "use_case": "Submitting AI-Generated Work as Your Own",
+      "description": "Passing off AI output as original human work without attribution",
+      "examples": [
+        "Submitting AI-written essay without disclosure",
+        "Turning in AI-generated code as own work",
+        "Submitting AI-generated data analysis"
+      ],
+      "consequence": "Academic integrity violation - failing grade, disciplinary hearing",
+      "severity": "Critical"
+    },
+    {
+      "use_case": "Violating Academic Integrity Policies",
+      "description": "Using AI to complete work that violates individual assignment requirements",
+      "examples": [
+        "Using AI on take-home exam marked as 'no AI allowed'",
+        "Using AI when collaboration is prohibited",
+        "Using AI to circumvent learning objectives"
+      ],
+      "consequence": "Failing grade for assignment or course",
+      "severity": "Critical"
+    },
+    {
+      "use_case": "Creating or Distributing Harmful Content",
+      "description": "Using AI to generate plagiarism, misinformation, or harmful material",
+      "examples": [
+        "Using AI to create convincing false data",
+        "Using AI to generate biased or discriminatory content",
+        "Using AI to fabricate research findings"
+      ],
+      "consequence": "Academic integrity violation, potential legal action",
+      "severity": "Critical"
+    },
+    {
+      "use_case": "Unauthorized Use in Secure Environments",
+      "description": "Using AI tools in exam proctoring or other controlled assessment situations",
+      "examples": [
+        "Using AI during proctored exams",
+        "Using AI in laboratory assessments",
+        "Using AI during in-class quizzes"
+      ],
+      "consequence": "Failing grade, disciplinary hearing",
+      "severity": "Critical"
+    }
+  ],
+  "disclosure_requirements": {
+    "when_required": "Any substantive use of AI tools in academic work",
+    "formats": [
+      {
+        "format": "Inline Code Comment",
+        "template": "# Used [Tool Name] v[version] to [action] - [date]",
+        "example": "# Used GitHub Copilot v1.88 to generate sorting algorithm - 2025-01-10"
+      },
+      {
+        "format": "Footnote",
+        "template": "The [description] was generated using [Tool Name]. All outputs were reviewed and modified for accuracy.",
+        "example": "The statistical analysis was generated using ChatGPT-4. All calculations were verified and modified for accuracy."
+      },
+      {
+        "format": "Separate Statement",
+        "template": "AI Tool Usage Statement: [list all tools and their purposes]",
+        "example": "AI Tool Usage Statement: GitHub Copilot (code generation, debugging), ChatGPT-4 (concept explanation), Grammarly (proofreading)"
+      }
+    ]
+  },
+  "assessment_guidelines": {
+    "evaluating_ai_use": [
+      "Assess whether AI use enhances learning or circumvents it",
+      "Verify that disclosure is accurate and complete",
+      "Check that AI output was appropriately reviewed and modified",
+      "Ensure learning objectives were still achieved"
+    ],
+    "red_flags": [
+      "AI output that appears unreviewed or unmodified",
+      "Disclosure missing for clearly AI-generated content",
+      "Use prohibited by assignment guidelines",
+      "Content that violates academic integrity standards"
+    ]
+  },
+  "enforcement": {
+    "responsible_office": "Dean of Undergraduate Education / Graduate School Dean",
+    "reporting": "Reports of suspected violations should be submitted to [department head]",
+    "process": "Follows standard MIT academic integrity investigation process",
+    "appeals": "Appeals process available per MIT regulations"
+  },
+  "frequently_asked_questions": [
+    {
+      "question": "Can I use ChatGPT to write my problem set solutions?",
+      "answer": "No. You should use AI as a learning tool to understand concepts, but must write your own solutions. Any code or solutions generated by AI must be disclosed and substantially rewritten."
+    },
+    {
+      "question": "Is it okay to use GitHub Copilot for programming assignments?",
+      "answer": "Yes, with disclosure and review. You must disclose its use and verify all generated code works correctly and is appropriately modified."
+    },
+    {
+      "question": "Can I use AI on my research paper?",
+      "answer": "You can use AI for brainstorming, structure suggestions, and proofreading. You must disclose any substantive AI assistance and maintain the authenticity of your own analysis and conclusions."
+    }
+  ],
+  "revision_history": [
+    {
+      "version": "1.0",
+      "date": "2025-01-15",
+      "changes": "Initial policy document"
+    }
+  ]
+}

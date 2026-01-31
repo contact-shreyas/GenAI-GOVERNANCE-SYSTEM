@@ -1,0 +1,36 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Documentation
+docs
+*.md
+
+# Tests
+tests
+__tests__
+coverage
+
+# IDE
+.vscode
+.idea
+.DS_Store
+
+# Node
+node_modules
+.pnpm-debug.log
+
+# Python
+__pycache__
+.pytest_cache
+venv
+env
+
+# CI/CD
+.github
+.gitlab-ci.yml
+
+# Misc
+LICENSE
+*.log

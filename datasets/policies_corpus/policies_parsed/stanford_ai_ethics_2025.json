@@ -1,0 +1,157 @@
+{
+  "metadata": {
+    "source": "Stanford University Official Policy",
+    "url": "https://uit.stanford.edu/ai-ethics-policy",
+    "date_published": "2025-07-20",
+    "date_parsed": "2026-01-29",
+    "institution": "Stanford University",
+    "document_type": "AI Ethics & Academic Integrity",
+    "version": "1.5"
+  },
+  "policy": {
+    "id": "stanford_ai_ethics_2025_v1.5",
+    "title": "Stanford University: AI Ethics and Responsible Use in Academics",
+    "effective_date": "2025-08-01",
+    "last_updated": "2025-07-20",
+    "scope": {
+      "applies_to": [
+        "all_students",
+        "faculty_researchers",
+        "postdoctoral_researchers"
+      ],
+      "applies_in": [
+        "coursework",
+        "research",
+        "capstone_projects",
+        "honors_thesis"
+      ]
+    },
+    "core_values": [
+      "Integrity: Honest representation of work and effort",
+      "Respect: Recognition of AI tool creators and limitations",
+      "Excellence: Using AI to enhance academic excellence",
+      "Responsibility: Understanding consequences of AI use"
+    ],
+    "allowed_activities": [
+      {
+        "activity": "AI-assisted learning",
+        "description": "Using AI tutors, explanation tools, and practice systems",
+        "disclosure_needed": false,
+        "examples": [
+          "Chegg AI tutor for homework help",
+          "Claude for concept explanation",
+          "Wolfram Alpha for math problem solving (practice)"
+        ]
+      },
+      {
+        "activity": "Content generation assistance",
+        "description": "Using AI to generate drafts, outlines, or initial versions",
+        "disclosure_needed": true,
+        "requirements": "Must significantly revise and adapt AI output",
+        "examples": [
+          "ChatGPT to generate outline (then develop yourself)",
+          "DALL-E to generate image ideas (then create actual images)",
+          "Claude for literature review draft (then synthesize)"
+        ]
+      },
+      {
+        "activity": "Analysis and synthesis",
+        "description": "Using AI to analyze data, identify patterns, or summarize information",
+        "disclosure_needed": true,
+        "examples": [
+          "ChatGPT to summarize research papers",
+          "Dataiku for data analysis assistance",
+          "GitHub Copilot for code optimization"
+        ]
+      },
+      {
+        "activity": "Peer review and quality assurance",
+        "description": "Using AI tools to check code quality, grammar, logic",
+        "disclosure_needed": true,
+        "examples": [
+          "Copilot for code review",
+          "Grammarly for writing quality",
+          "Zotero for citation checking"
+        ]
+      }
+    ],
+    "prohibited_uses": [
+      {
+        "violation": "Submitting AI-generated work without disclosure",
+        "severity": "Critical",
+        "applies_to": "All assessments",
+        "penalty": "Academic integrity hearing"
+      },
+      {
+        "violation": "Using AI on authenticated exams without permission",
+        "severity": "Critical",
+        "applies_to": "Exams, quizzes, proctored assessments",
+        "penalty": "F in course, possible suspension"
+      },
+      {
+        "violation": "Misrepresenting AI tool's contribution",
+        "severity": "Major",
+        "applies_to": "Research, theses, publications",
+        "penalty": "Retraction, loss of authorship credit"
+      },
+      {
+        "violation": "Using proprietary data without permission in AI tools",
+        "severity": "Critical",
+        "applies_to": "Research, projects",
+        "penalty": "Loss of research privileges"
+      }
+    ],
+    "disclosure_policy": {
+      "when_required": [
+        "Work is submitted for evaluation",
+        "AI tool significantly contributed to outcome",
+        "Final product includes AI-generated content (>5%)"
+      ],
+      "how_to_disclose": {
+        "academic_work": "Include statement: 'I used [Tool] for [Purpose]'",
+        "research": "Disclose in Methods section or footnote",
+        "code": "Include comment explaining Copilot suggestions",
+        "thesis": "Separate section on AI assistance"
+      },
+      "what_to_include": [
+        "Name of AI tool(s) used",
+        "Specific purpose (brainstorming, coding, review)",
+        "Percentage of work AI contributed to",
+        "How you validated/improved AI output"
+      ]
+    },
+    "assessment_guidelines": {
+      "for_faculty": [
+        "Redesign assessments to be AI-resistant (focus on explanation)",
+        "Include process documentation (show your work)",
+        "Use AI-detection tools judiciously",
+        "Provide clear AI policy in syllabus",
+        "Offer separate 'AI-allowed' assignments for practice"
+      ],
+      "detection_and_response": {
+        "suspected_violation": "Document evidence and discuss with student first",
+        "investigation": "Follow Stanford Honor Code procedures",
+        "penalties": "Range from warning to suspension (see Honor Code)"
+      }
+    },
+    "resources_provided": {
+      "for_students": [
+        "Workshops on responsible AI use",
+        "Examples of proper disclosure",
+        "AI tool comparison guide",
+        "Honor Code guidance document"
+      ],
+      "for_faculty": [
+        "Sample syllabus language",
+        "Assessment design guide",
+        "AI detection tool evaluation",
+        "Student education materials"
+      ]
+    }
+  },
+  "implementation": {
+    "contact": "honor-code@stanford.edu",
+    "resources": "https://www.stanford.edu/about/honor-code",
+    "workshops": "Monthly webinars on AI ethics in academics"
+  }
+}

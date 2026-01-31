@@ -1,0 +1,183 @@
+{
+  "institution": "Yale University",
+  "policy_name": "Responsible Use of Artificial Intelligence in Academic Work",
+  "academic_year": 2025,
+  "effective_date": "2025-02-01",
+  "last_updated": "2025-02-01",
+  "source_url": "https://provost.yale.edu/policies-procedures/academic-integrity",
+  "policy_id": "YALE_AI_2025_v1",
+  "scope": {
+    "applies_to": ["Undergraduate Students", "Graduate Students", "Postdoctoral Researchers", "Faculty"],
+    "level": ["All Academic Levels"],
+    "jurisdiction": "All courses, research, and academic programs at Yale University"
+  },
+  "preamble": "Yale is committed to academic integrity and responsible innovation. AI tools offer tremendous potential for learning and discovery. This policy establishes clear guidelines for ethical AI use that maintain Yale's commitment to genuine scholarship.",
+  "core_principles": [
+    "Authenticity: Academic work must reflect genuine human thinking and effort",
+    "Transparency: All AI use must be clearly disclosed",
+    "Responsibility: Users must critically evaluate AI outputs for accuracy and bias",
+    "Learning: AI should enhance learning, not replace critical thinking"
+  ],
+  "allowed_uses": [
+    {
+      "use_case": "Concept Clarification",
+      "description": "Using AI to understand difficult concepts and course material",
+      "examples": [
+        "Asking ChatGPT to explain a theorem in different ways",
+        "Using AI to translate technical jargon into simpler language",
+        "Using AI to work through practice problems for understanding"
+      ],
+      "disclosure_required": false,
+      "note": "Disclosure encouraged for transparency"
+    },
+    {
+      "use_case": "Writing Support",
+      "description": "Using AI to improve writing quality, clarity, and organization",
+      "examples": [
+        "Using AI for grammar and style checking",
+        "Using AI to improve argument structure",
+        "Using AI to ensure clear academic writing"
+      ],
+      "disclosure_required": true,
+      "disclosure_method": "Acknowledge AI assistance in footnote or separate statement"
+    },
+    {
+      "use_case": "Research Planning and Design",
+      "description": "Using AI to design research methodology and plan experiments",
+      "examples": [
+        "Using AI to brainstorm research questions",
+        "Using AI to review research design approaches",
+        "Using AI to identify methodological considerations"
+      ],
+      "disclosure_required": true,
+      "disclosure_method": "Methods section disclosure"
+    },
+    {
+      "use_case": "Code Development",
+      "description": "Using AI for programming assistance with proper attribution",
+      "examples": [
+        "Using GitHub Copilot with code review",
+        "Using AI to generate boilerplate code",
+        "Using AI for debugging assistance"
+      ],
+      "disclosure_required": true,
+      "disclosure_method": "Code comments with tool and date"
+    },
+    {
+      "use_case": "Data Analysis Support",
+      "description": "Using AI to analyze data and interpret results",
+      "examples": [
+        "Using AI to suggest statistical approaches",
+        "Using AI to generate visualizations and interpret patterns",
+        "Using AI to check calculations"
+      ],
+      "disclosure_required": true,
+      "disclosure_method": "Methods and results section acknowledgment"
+    },
+    {
+      "use_case": "Literature Organization",
+      "description": "Using AI to organize, summarize, and synthesize literature",
+      "examples": [
+        "Using AI to summarize academic papers",
+        "Using AI to identify research trends",
+        "Using AI to organize bibliographies"
+      ],
+      "disclosure_required": true,
+      "disclosure_method": "Methods section or acknowledgments"
+    }
+  ],
+  "prohibited_uses": [
+    {
+      "use_case": "Submitting AI Output as Own Work",
+      "description": "Presenting AI-generated work as original human work without disclosure",
+      "examples": [
+        "Submitting an AI-written essay without attribution",
+        "Turning in AI-generated analysis as your original work",
+        "Presenting AI-created research conclusions"
+      ],
+      "consequence": "Academic dishonesty charge, potential suspension",
+      "severity": "Critical"
+    },
+    {
+      "use_case": "Violating Assignment Requirements",
+      "description": "Using AI on assignments explicitly prohibited by instructor",
+      "examples": [
+        "Using AI on take-home exam marked 'AI not permitted'",
+        "Using AI when individual work is required",
+        "Using AI to circumvent learning objectives"
+      ],
+      "consequence": "Failing grade on assignment or course",
+      "severity": "Critical"
+    },
+    {
+      "use_case": "Creating Fraudulent Content",
+      "description": "Using AI to fabricate data, citations, or research findings",
+      "examples": [
+        "Using AI to generate fake experimental results",
+        "Creating fabricated citations",
+        "Generating misleading data visualizations"
+      ],
+      "consequence": "Academic dishonesty hearing, possible expulsion",
+      "severity": "Critical"
+    },
+    {
+      "use_case": "Unauthorized Exam Use",
+      "description": "Using AI tools during examinations or assessments",
+      "examples": [
+        "Using ChatGPT during proctored exam",
+        "Accessing AI during timed assessments",
+        "Using AI during laboratory practical exams"
+      ],
+      "consequence": "Failing grade, academic dishonesty hearing",
+      "severity": "Critical"
+    },
+    {
+      "use_case": "Collaborating Improperly",
+      "description": "Using AI to complete work when collaboration is prohibited",
+      "examples": [
+        "Using AI instead of individual work",
+        "Using AI to compensate for not doing own work",
+        "Using AI when peer collaboration is forbidden"
+      ],
+      "consequence": "Failing grade, academic integrity violation",
+      "severity": "Major"
+    }
+  ],
+  "disclosure_statement_template": {
+    "title": "AI Tool Usage Disclosure",
+    "format": "Include the following information when using AI:",
+    "template": [
+      "AI Tool(s) Used: [List specific tools and versions]",
+      "Purpose(s): [Describe what AI was used for]",
+      "Impact on Work: [Explain how AI affected the final product]",
+      "Human Review: [Describe what human review/modification was done]",
+      "Date(s) Used: [When tools were used]"
+    ],
+    "example": "AI Tool Usage Disclosure: ChatGPT-4 was used to help organize the structure of this literature review and suggest relevant themes. All AI-generated summaries were reviewed, modified, and verified for accuracy. Human analysis and critical synthesis are entirely my own. Used January 2025."
+  },
+  "faculty_guidance": {
+    "before_course": [
+      "Clearly communicate AI policy expectations in syllabus",
+      "Specify whether AI use is permitted, required, or prohibited for each assignment",
+      "Provide clear disclosure requirements and examples"
+    ],
+    "during_course": [
+      "Monitor for suspicious patterns indicating inappropriate AI use",
+      "Be attentive to sudden shifts in writing quality or complexity",
+      "Watch for content inconsistent with demonstrated class understanding"
+    ],
+    "assessment": [
+      "Consider requiring AI disclosure statements for major assignments",
+      "Use plagiarism detection and AI detection tools when appropriate",
+      "Include student understanding verification through follow-up questions or presentations"
+    ]
+  },
+  "enforcement": {
+    "office": "Office of Institutional Equity",
+    "contact": "integrity@yale.edu",
+    "process": "Yale's standard academic integrity process applies",
+    "sanctions": "Range from warning to expulsion depending on severity"
+  },
+  "version": "1.0",
+  "last_revised": "2025-02-01"
+}

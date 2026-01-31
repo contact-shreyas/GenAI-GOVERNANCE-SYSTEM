@@ -1,0 +1,215 @@
+{
+  "metadata": {
+    "source": "Cornell University Official Policy",
+    "url": "https://academicaffairs.cornell.edu/policies/ai-in-education",
+    "date_published": "2025-08-15",
+    "date_parsed": "2026-01-29",
+    "institution": "Cornell University",
+    "document_type": "GenAI Policy",
+    "version": "2.0"
+  },
+  "policy": {
+    "id": "cornell_genai_2025_v2.0",
+    "title": "Cornell University Artificial Intelligence in Education Policy 2025",
+    "effective_date": "2025-09-01",
+    "last_updated": "2025-08-15",
+    "scope": {
+      "applies_to": [
+        "undergraduate_students",
+        "graduate_students",
+        "faculty",
+        "staff"
+      ],
+      "applies_in": [
+        "coursework",
+        "research",
+        "academic_assessments"
+      ]
+    },
+    "principles": [
+      "Academic Integrity: Students must acknowledge AI use in their work",
+      "Transparency: Faculty should disclose AI use in course materials",
+      "Responsible Use: AI should enhance learning, not replace thinking",
+      "Equity: Equal access to AI tools for all students",
+      "Privacy: Student data used by AI systems must be protected"
+    ],
+    "allowed_uses": [
+      {
+        "use_case": "Brainstorming and ideation",
+        "description": "Using AI to generate ideas for essays, projects, or research",
+        "disclosure_required": true,
+        "examples": [
+          "ChatGPT to brainstorm essay topics",
+          "Claude to generate research questions",
+          "Copilot to outline project structure"
+        ],
+        "assessment_types": [
+          "assignments",
+          "projects",
+          "research_proposals"
+        ]
+      },
+      {
+        "use_case": "Code review and debugging",
+        "description": "Using AI to review code quality and identify bugs",
+        "disclosure_required": true,
+        "examples": [
+          "GitHub Copilot for code suggestions",
+          "ChatGPT to explain error messages",
+          "Claude to refactor code"
+        ],
+        "assessment_types": [
+          "programming_assignments",
+          "projects"
+        ]
+      },
+      {
+        "use_case": "Research assistance",
+        "description": "Using AI to summarize papers or find relevant sources",
+        "disclosure_required": true,
+        "examples": [
+          "AI literature review assistance",
+          "PDF summary tools",
+          "Citation formatting tools"
+        ],
+        "assessment_types": [
+          "research",
+          "literature_review"
+        ]
+      },
+      {
+        "use_case": "Writing assistance",
+        "description": "Using AI for grammar, style, and clarity improvement",
+        "disclosure_required": true,
+        "examples": [
+          "Grammarly for grammar checking",
+          "Quillbot for paraphrasing",
+          "ChatGPT for sentence clarity"
+        ],
+        "assessment_types": [
+          "essays",
+          "reports",
+          "papers"
+        ]
+      },
+      {
+        "use_case": "Learning support",
+        "description": "Using AI as a tutor or study aid",
+        "disclosure_required": false,
+        "examples": [
+          "Khan Academy AI tutor",
+          "ChatGPT for concept explanation",
+          "Duolingo for language learning"
+        ],
+        "assessment_types": [
+          "self_study",
+          "practice"
+        ]
+      }
+    ],
+    "prohibited_uses": [
+      {
+        "use_case": "Submitting AI-generated work as own",
+        "description": "Presenting AI output without modification or citation as student's own work",
+        "applies_to": [
+          "assignments",
+          "exams",
+          "research",
+          "theses"
+        ],
+        "consequences": "Academic integrity violation, possible course failure"
+      },
+      {
+        "use_case": "Using AI on closed assessments",
+        "description": "Using AI tools on exams, quizzes, or closed-book assessments without permission",
+        "applies_to": [
+          "exams",
+          "quizzes",
+          "proctored_assessments"
+        ],
+        "consequences": "Academic integrity violation"
+      },
+      {
+        "use_case": "Violating academic integrity policies",
+        "description": "Using AI in ways that violate existing Cornell academic integrity policies",
+        "applies_to": [
+          "all_assessments"
+        ],
+        "consequences": "Referral to Dean of Students"
+      }
+    ],
+    "disclosure_requirements": {
+      "required_for": [
+        "assignments",
+        "projects",
+        "research",
+        "essays"
+      ],
+      "format_options": [
+        {
+          "format": "Inline comment",
+          "description": "Include comment in work: 'I used [Tool] to [Action]'",
+          "example": "I used ChatGPT to brainstorm essay topics"
+        },
+        {
+          "format": "Footnote or endnote",
+          "description": "Add citation at end of work",
+          "example": "ChatGPT (OpenAI, 2025) was used for grammar review"
+        },
+        {
+          "format": "Separate statement",
+          "description": "Submit separate document listing AI use",
+          "required_if": "Extensive AI use"
+        }
+      ],
+      "minimal_requirement": "Tool name + Purpose (e.g., 'ChatGPT for brainstorming')"
+    },
+    "faculty_guidance": {
+      "incorporate_into_syllabus": [
+        "Explicitly state AI use policy for the course",
+        "Provide examples of appropriate AI use",
+        "Clarify when AI use is prohibited",
+        "Explain disclosure expectations"
+      ],
+      "assessment_design": [
+        "Design assessments that are difficult to fake with AI",
+        "Include reflective components (why did you make this choice?)",
+        "Ask for explanations alongside solutions",
+        "Use in-class assessments to verify learning"
+      ],
+      "support_students": [
+        "Provide examples of proper disclosure",
+        "Discuss limitations of AI tools",
+        "Host workshops on responsible AI use",
+        "Encourage critical evaluation of AI output"
+      ]
+    },
+    "student_guidance": {
+      "key_principles": [
+        "Transparency is the foundation of AI use in academics",
+        "AI should enhance your learning, not replace thinking",
+        "Always disclose AI use as requested by faculty",
+        "Critically evaluate AI output before using it",
+        "Understand the policies of each course"
+      ],
+      "disclosure_examples": {
+        "good": [
+          "✅ 'I used ChatGPT to brainstorm essay topics and outline my argument'",
+          "✅ 'GitHub Copilot suggested lines 15-20 of this code'",
+          "✅ 'I used Grammarly for grammar and style checking'"
+        ],
+        "avoid": [
+          "❌ Submitting AI output with no disclosure",
+          "❌ Vague statement like 'I used AI' without details",
+          "❌ Hiding AI use from faculty"
+        ]
+      }
+    }
+  },
+  "data_quality": {
+    "verified": true,
+    "verified_date": "2025-09-01",
+    "source_reliability": "Official University Policy",
+    "policy_status": "Active"
+  }
+}

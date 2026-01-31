@@ -1,0 +1,244 @@
+{
+  "institution": "Harvard University",
+  "policy_name": "Policy on AI and Academic Work",
+  "academic_year": 2025,
+  "effective_date": "2025-02-01",
+  "last_updated": "2025-02-01",
+  "source_url": "https://honor.harvard.edu/ai-guidance",
+  "policy_id": "HARVARD_AI_2025_v1",
+  "scope": {
+    "applies_to": ["All Harvard Students", "Faculty", "Academic Researchers"],
+    "schools": ["Harvard College", "Harvard Graduate School of Arts and Sciences", "Professional Schools"],
+    "jurisdiction": "All Harvard University academic activities"
+  },
+  "statement": "Harvard's commitment to intellectual rigor requires that all academic work represents the student's genuine understanding. While AI tools offer legitimate learning opportunities, their use must be transparent and responsible.",
+  "guiding_principles": [
+    "Authenticity: Your work must reflect your own thinking and analysis",
+    "Integrity: Academic honesty is foundational to Harvard's reputation",
+    "Responsibility: You are accountable for all submitted work",
+    "Transparency: Disclose AI use clearly and completely",
+    "Learning: AI should enhance education, not replace learning"
+  ],
+  "permitted_uses": [
+    {
+      "use_case": "Exploration and Brainstorming",
+      "description": "Using AI to explore ideas, test hypotheses, and develop approaches",
+      "scope": "All courses",
+      "examples": [
+        "Using ChatGPT to explore multiple perspectives on a topic",
+        "Using AI to brainstorm research methodology",
+        "Using AI to test problem approaches"
+      ],
+      "disclosure_required": false,
+      "note": "Disclosure encouraged for transparency"
+    },
+    {
+      "use_case": "Learning and Understanding",
+      "description": "Using AI as educational tool to comprehend difficult concepts",
+      "scope": "All courses for individual learning",
+      "examples": [
+        "Using ChatGPT to explain challenging material",
+        "Using AI to work through example problems",
+        "Using AI to see alternative problem-solving approaches"
+      ],
+      "disclosure_required": false,
+      "note": "May be required if incorporated into submitted work"
+    },
+    {
+      "use_case": "Research and Source Organization",
+      "description": "Using AI to find, organize, and summarize academic sources",
+      "scope": "Research papers and theses (with approval)",
+      "examples": [
+        "Using AI to organize literature and identify patterns",
+        "Using AI to summarize key research findings",
+        "Using AI to identify relevant articles in a field"
+      ],
+      "disclosure_required": true,
+      "disclosure_method": "Methods section or acknowledgments"
+    },
+    {
+      "use_case": "Writing Improvement",
+      "description": "Using AI for grammar, clarity, organization, and style editing",
+      "scope": "All written work",
+      "examples": [
+        "Using AI writing assistants for proofreading",
+        "Using AI to improve clarity and coherence",
+        "Using AI to organize arguments logically"
+      ],
+      "disclosure_required": true,
+      "disclosure_method": "Only if substantive (beyond basic grammar)"
+    },
+    {
+      "use_case": "Technical Assistance",
+      "description": "Using AI for programming, data analysis, and visualization",
+      "scope": "Technical courses (with disclosure)",
+      "examples": [
+        "Using AI for code generation with review",
+        "Using AI to generate statistical visualizations",
+        "Using AI to suggest appropriate analysis methods"
+      ],
+      "disclosure_required": true,
+      "disclosure_method": "Code comments or methodology section"
+    },
+    {
+      "use_case": "Accessibility Support",
+      "description": "Using AI tools for accessibility and learning accommodations",
+      "scope": "All students (with documentation)",
+      "examples": [
+        "Using AI to transcribe lecture notes",
+        "Using AI to simplify complex text for accessibility",
+        "Using AI-powered research tools with documented need"
+      ],
+      "disclosure_required": false,
+      "note": "Consult Accessibility Office"
+    }
+  ],
+  "prohibited_practices": [
+    {
+      "practice": "Submitting AI Output as Own Work",
+      "definition": "Presenting AI-generated content without attribution",
+      "why_prohibited": "Fundamental violation of academic integrity",
+      "examples": [
+        "Submitting ChatGPT-written essay without disclosure",
+        "Turning in AI-generated analysis as your analysis",
+        "Using AI-written code without acknowledging tool"
+      ],
+      "consequence": "Violation of Harvard Honor Code; range of sanctions including failing grade, suspension, dismissal",
+      "severity": "Critical"
+    },
+    {
+      "practice": "Violating Explicit Assignment Restrictions",
+      "definition": "Using AI when instructor explicitly prohibits it",
+      "why_prohibited": "Disrespects learning objectives and course requirements",
+      "examples": [
+        "Using AI on examination (proctored or take-home marked 'no AI')",
+        "Using AI on assignment marked 'individual work'",
+        "Using AI when instruction clearly states 'without AI assistance'"
+      ],
+      "consequence": "Failing grade on assignment/course, Honor Code violation",
+      "severity": "Critical"
+    },
+    {
+      "practice": "Fabricating Evidence or Data",
+      "definition": "Using AI to generate false content presented as authentic",
+      "why_prohibited": "Produces fraudulent scholarship and misinformation",
+      "examples": [
+        "Creating fake experimental data",
+        "Generating non-existent citations",
+        "Using AI to invent quotations"
+      ],
+      "consequence": "Serious Honor Code violation; suspension or dismissal likely",
+      "severity": "Critical"
+    },
+    {
+      "practice": "Misrepresenting Understanding",
+      "definition": "Submitting AI-generated work you don't understand",
+      "why_prohibited": "Circumvents skill development central to education",
+      "examples": [
+        "Submitting AI code you cannot explain",
+        "Using AI analysis you haven't verified",
+        "Relying entirely on AI to avoid learning required skills"
+      ],
+      "consequence": "Honor Code violation; failing grade or reassessment requirement",
+      "severity": "Major"
+    }
+  ],
+  "disclosure_requirements": {
+    "when_required": "Any substantive AI use in submitted work",
+    "methods": [
+      {
+        "method": "AI Use Disclosure Statement",
+        "format": "Separate paragraph or footnote",
+        "template": "AI Disclosure: I used [Tool Name] [dates] for [specific purposes]. The AI generated [description of output], which I [modified/verified/integrated as follows]. This disclosure ensures transparency and acknowledges AI as a tool rather than the source of ideas."
+      },
+      {
+        "method": "In-Text Comments",
+        "format": "Code or document comments",
+        "template": "# Generated by [AI Tool] - [date] / modified as described in disclosure"
+      },
+      {
+        "method": "Methods Section",
+        "format": "Research papers and technical work",
+        "template": "Data analysis was conducted using [software] with [AI tool] assistance for [specific task]. All results were independently verified by [verification method]."
+      }
+    ],
+    "required_information": [
+      "Tool name and version (e.g., ChatGPT-4, GitHub Copilot 1.88)",
+      "Specific purposes (brainstorming, code generation, proofreading, etc.)",
+      "Extent of use (portions vs. entire work; iterative use)",
+      "Modifications made (what you changed, verified, or improved)",
+      "Date(s) when tools were used",
+      "Any uncertainty or limitations in AI output"
+    ]
+  },
+  "faculty_expectations": {
+    "course_communication": [
+      "Clearly state AI policy in course syllabus (permitted, prohibited, conditional)",
+      "Specify whether policy varies by assignment type",
+      "Provide concrete examples of acceptable and unacceptable AI use",
+      "Explain how AI use relates to learning objectives"
+    ],
+    "in_class_discussion": [
+      "Discuss AI capabilities and limitations with students",
+      "Address questions about appropriate use",
+      "Explain why learning outcomes matter",
+      "Share how to properly disclose AI use"
+    ],
+    "assessment_design": [
+      "Design assessments that require genuine understanding demonstration",
+      "Include varied assessment types (presentations, viva voce, group work)",
+      "Use assessments that require explanation and reasoning",
+      "Consider whether exam/take-home format affects AI permission"
+    ],
+    "evaluation_considerations": [
+      "Use plagiarism detection as supporting evidence, not sole determinant",
+      "Consider student's demonstrated understanding in class",
+      "Evaluate writing consistency with known student voice",
+      "Compare current work to student's prior work patterns"
+    ],
+    "responding_to_concerns": [
+      "Interview student about work and process (non-accusatory)",
+      "Ask student to explain methodology and reasoning",
+      "Request follow-up assignment if understanding unclear",
+      "Use formal procedures before escalating to Honor Council"
+    ]
+  },
+  "the_honor_code": {
+    "relevant_provision": "Academic integrity is fundamental to all work submitted for credit",
+    "implications": [
+      "Undisclosed AI use constitutes dishonesty",
+      "Violating assignment-specific restrictions violates the Honor Code",
+      "All work must represent your genuine understanding"
+    ],
+    "reporting": "Suspected violations should be reported to Resident Dean or dean@college.harvard.edu",
+    "process": "Formal Honor Council hearing process is available"
+  },
+  "student_resources": [
+    "Writing Center: assistance with writing and organization",
+    "Accessibility Office: support for students with documented needs",
+    "Academic Integrity course: detailed guidance on ethical academic work",
+    "Instructor office hours: discuss AI policy and expectations specific to your course"
+  ],
+  "frequently_asked_questions": [
+    {
+      "q": "Can I use ChatGPT to write my essays?",
+      "a": "No. You should write the analysis and arguments yourself. AI can assist with brainstorming, organizing ideas, and editing. You must disclose any AI use and it should not constitute the main content."
+    },
+    {
+      "q": "Is using GitHub Copilot acceptable?",
+      "a": "Generally yes for CS and engineering courses, with disclosure and understanding verification. You must be able to explain all code you submit. Check with your instructor."
+    },
+    {
+      "q": "What if I use AI but don't disclose?",
+      "a": "That constitutes a violation of the Honor Code. Transparency about AI use is essential. When in doubt, disclose."
+    },
+    {
+      "q": "Can I be punished for disclosing AI use?",
+      "a": "No. Disclosure of appropriate AI use will not result in penalties. Better to disclose than to conceal. If use violates assignment requirements, instructor can give feedback."
+    }
+  ],
+  "version": "1.0",
+  "status": "Active",
+  "last_updated": "2025-02-01",
+  "next_review_scheduled": "2025-09-01"
+}

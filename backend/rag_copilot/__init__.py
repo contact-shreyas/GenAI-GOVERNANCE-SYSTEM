@@ -115,7 +115,12 @@ async def ask_policy_question(
         )
     
     answer, citations, confidence = generate_answer(question, policy)
-    
+
     return CopilotResult(
-        human_contact="ai-governance@institution.edu"
+        question=question,
+        answer=answer,
+        citations=citations,
+        confidence=confidence,
+        policy_ids=[policy.get("policy_id", course_id)],
+        has_contradiction=False
     )

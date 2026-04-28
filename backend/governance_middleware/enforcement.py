@@ -14,7 +14,7 @@ from datetime import datetime
 
 from pydantic import BaseModel
 
-from ..models import (
+from models import (
     GovernanceContext,
     GovernanceDecision,
     DecisionEnum,

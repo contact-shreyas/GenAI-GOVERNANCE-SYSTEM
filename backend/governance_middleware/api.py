@@ -12,14 +12,14 @@ from typing import List, Optional
 from fastapi import APIRouter, HTTPException, Depends
 from sqlalchemy.orm import Session
 
-from ..models import (
+from models import (
     GovernanceContext, GovernanceDecision, PolicyJSON,
     PolicyFormInput, CompileResult, StudentTransparencyView, CourseAnalytics
 )
-from .enforcement import f
-from ..db import get_db
-from ..transparency_ledger import log_to_transparency_ledger, get_student_transparency_logs, get_course_analytics
-from ..policy_compiler import compile_policy_from_form
+from governance_middleware.enforcement import f
+from db import get_db
+from transparency_ledger import log_to_transparency_ledger, get_student_transparency_logs, get_course_analytics
+from policy_compiler import compile_policy_from_form
 
 router = APIRouter()
 

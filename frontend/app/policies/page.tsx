@@ -29,18 +29,20 @@ export default function CreatePolicy() {
   const [error, setError] = useState('');
 
   const compilePayload = () => {
-    const allowed_uses: string[] = [];
-    const prohibited_practices: string[] = [];
+    const allowed_actions: string[] = [];
+    const prohibited_actions: string[] = [];
 
-    if (brainstormAllowed) allowed_uses.push('brainstorm');
-    if (fullSolutionBanned) prohibited_practices.push('full_solution');
-    if (examAllBanned) prohibited_practices.push('exam_ai_banned');
+    if (brainstormAllowed) allowed_actions.push('use_genai_brainstorm');
+    if (fullSolutionBanned) prohibited_actions.push('use_genai_full_solution');
+    if (examAllBanned) prohibited_actions.push('use_genai_exam');
 
     return {
       course_id: courseId,
-      instructor_name: instructorName,
-      allowed_uses,
-      prohibited_practices,
+      policy_title: policyTitle,
+      description: `AI Usage Policy for ${courseId} by ${instructorName}`,
+      allowed_actions,
+      prohibited_actions,
+      disclosure_required: disclosureRequired,
     };
   };
 

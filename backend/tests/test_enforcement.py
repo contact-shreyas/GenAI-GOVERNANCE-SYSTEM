@@ -1,7 +1,7 @@
 import pytest
 from datetime import datetime
 
-from backend.models import (
+from models import (
     GovernanceContext,
     PolicyJSON,
     PolicyMetadata,
@@ -13,7 +13,7 @@ from backend.models import (
     DisclosureRequirement,
     LoggingConfig,
 )
-from backend.governance_middleware.enforcement import decide
+from governance_middleware.enforcement import decide
 
 
 def make_policy(policy_id: str) -> PolicyJSON:
